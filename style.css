@@ -1,0 +1,128 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+  padding-top: 100px;
+  background-color: #002c3f !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Fonts */
+h1,h2,h3,h4{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+p{
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-txt h1{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* row content */
+.row{
+  padding: 25px;
+}
+
+.dark-bg{
+  color: #ADD3D3;
+}
+
+.light-bg{
+  color: #333333;
+}
+
+ .vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Font Awesome customization */
+.fa-facebook-square{
+  color: #ADD3D3;
+}
+
+.fa-twitter-square{
+  color: #ADD3D3;
+}
+
+.fa-github-square{
+  color: #ADD3D3;
+}
+/* end of Font Awesome*/
+
+/* navbar*/
+.navbar{
+  background-color: #002c3f;
+  padding: 10px 15px;
+  border-bottom: 1px solid #002c3f;
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #ADD3D3;
+   background: #268491;
+ }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #ADD3D3;
+      background: #268491;
+ }
+
+.navbar li a{
+  color: #CCD3D4 !important;
+}
+
+.navbar li a:hover{
+  color: #fff !important;
+}
+
+.navbar-brand{
+  color: #fff !important;
+  text-decoration: none;
+}
+/* end of navbar */
+
+.img-circle{
+  width: 70%;
+}
+
+#portfolio img{
+  width: 90%;
+  margin-bottom: 10px;
+  border: 6px solid #268491;
+  border-radius: 10px;
+}
+
+#main-content{
+ padding: 0;
+ margin: 0;
+}
+
+#about{
+  background: linear-gradient(to bottom, #002c3f , #268491);
+  padding: 20 20px;
+}
+
+#portfolio{
+    background: #F8F6F8;
+}
+
+#contact{
+  background-color: #268491;
+}
+
+.contact-icons{
+    padding: 50px 75px;
+}
+
+#footer{
+  background-color: #F8F6F8;
+/*   width: 100%; */
+  height: 100px;
+}
